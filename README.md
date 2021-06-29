@@ -1,8 +1,8 @@
 # Nextcloud App Gitpod
 
-Gitpod is a container-based development platform. Gitpod provisions ready-to-code development environments in the cloud accessible through your browser and your local IDE.
+[Gitpod](https://www.gitpod.io/) is a container-based development platform. Gitpod provisions ready-to-code development environments in the cloud accessible through your browser and your local IDE.
 
-Gitpod enables you to describe your dev environment as code and start configurable and fresh development environments for each new task entirely in the cloud. Think CI/CD for dev environments.
+It enables you to describe your dev environment as code and start configurable and fresh development environments for each new task entirely in the cloud. Think CI/CD for dev environments.
 
 This is a guide on how to set up a Nextcloud App Repository to be able to open it in gitpod with an automatic dev server.
 
