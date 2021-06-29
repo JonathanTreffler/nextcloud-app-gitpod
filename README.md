@@ -26,4 +26,6 @@ defaults (compatible with the [tutorial app by nextcloud](https://github.com/nex
   - Dependency install: make dev-setup
   - Frontend: make watch-js
 
-4. Open https://gitpod.io/#https://github.com/[your_user]/[your_repo]/ or install the [gitpod browser extension](https://www.gitpod.io/docs/browser-extension/).
+4. (optional) There is a file called README.snippet.md in this repo. You can add it to your README to explain contributors how to use gitpod for your app. Just replace [user] and [repository].
+
+5. Open https://gitpod.io/#https://github.com/[your_user]/[your_repo]/ or install the [gitpod browser extension](https://www.gitpod.io/docs/browser-extension/).
