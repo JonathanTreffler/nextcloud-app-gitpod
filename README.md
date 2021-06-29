@@ -1,10 +1,16 @@
 # Nextcloud App Gitpod
-Guide on how to set up a Nextcloud App Repository to be able to open it in gitpod with an automatic dev server.
+
+Gitpod is a container-based development platform. Gitpod provisions ready-to-code development environments in the cloud accessible through your browser and your local IDE.
+
+Gitpod enables you to describe your dev environment as code and start configurable and fresh development environments for each new task entirely in the cloud. Think CI/CD for dev environments.
+
+This is a guide on how to set up a Nextcloud App Repository to be able to open it in gitpod with an automatic dev server.
 
 This repository contains:
-- A gitpod config file, that automatically spins up three tasks:
+- A gitpod config file, that automatically spins up 4 tasks:
   - A Docker compose server with Nextcloud, Mariadb and Phpmyadmin
-  - A terminal wich builds the frontend files (eg. vue -> js bundle with webpack)
+  - Install all frontend and backend dependencies of the app
+  - A terminal wich builds the frontend files of the app (eg. vue -> js bundle with webpack)
   - An empty terminal for use while programming
 
 To set this up for your Nextcloud App only slight modifications are necessary.
