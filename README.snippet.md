@@ -14,3 +14,9 @@ It will automatically spin up and configure a full Nextcloud, MariaDB and PhpMyA
 **Password:** wdGq73jQB0p373gLdf6yLRj5
 
 (It is fine to have these static logins, because gitpod has acess control built in and no sensitive data is stored in these dev servers)
+
+## OCC Acess
+You can acess nextclouds occ shell using this command:
+```
+docker exec -it -u 33 gitpod_app_1 php occ
+````
